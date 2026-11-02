@@ -1,0 +1,13 @@
+{
+  "time_local": "2026-11-02 约01:13（调用时未自动记录精确时间）",
+  "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+  "model": "gpt-oss-20b",
+  "mode": "real_remote_tool_call",
+  "input_type": "synthetic only",
+  "success": true,
+  "trace": [{"tool":"get_monthly_report","status":"已处理"}],
+  "transaction_count": 13,
+  "elapsed_seconds": 5.44,
+  "raw_stdout": "REAL_AGENT_SUCCESS [{'tool': 'get_monthly_report', 'status': '已处理'}] transaction_count 13 seconds 5.44",
+  "limitations": "单次成功；另一次探针失败，原因仅可确认是模型请求失败。此前独立请求收到429限流。不是稳定性评估。"
+}

@@ -1,0 +1,54 @@
+test_ambiguous_payee_blocked (test_agent_tools.ToolAgentTests.test_ambiguous_payee_blocked) ... ok
+test_hallucinated_amount_blocked (test_agent_tools.ToolAgentTests.test_hallucinated_amount_blocked) ... ok
+test_prepare_then_confirm (test_agent_tools.ToolAgentTests.test_prepare_then_confirm) ... ok
+test_report_tool (test_agent_tools.ToolAgentTests.test_report_tool) ... ok
+test_token_generated_for_confirmation (test_agent_tools.ToolAgentTests.test_token_generated_for_confirmation) ... ok
+test_unknown_tool_blocked (test_agent_tools.ToolAgentTests.test_unknown_tool_blocked) ... ok
+test_ambiguous (test_app.BankmateTests.test_ambiguous) ... ok
+test_birthday (test_app.BankmateTests.test_birthday) ... ok
+test_cancel (test_app.BankmateTests.test_cancel) ... ok
+test_insufficient (test_app.BankmateTests.test_insufficient) ... ok
+test_no_action_before_confirm (test_app.BankmateTests.test_no_action_before_confirm) ... ok
+test_report (test_app.BankmateTests.test_report) ... ok
+test_suspected (test_app.BankmateTests.test_suspected) ... ok
+test_transfer_and_idempotency (test_app.BankmateTests.test_transfer_and_idempotency) ... ok
+test_unknown_and_invalid (test_app.BankmateTests.test_unknown_and_invalid) ... ok
+test_wrong_token (test_app.BankmateTests.test_wrong_token) ... ok
+test_aa_remainder (test_app.ExtendedTests.test_aa_remainder) ... ok
+test_lock (test_app.ExtendedTests.test_lock) ... ok
+test_schedule_does_not_deduct (test_app.ExtendedTests.test_schedule_does_not_deduct) ... ok
+test_wealth_disclaimer (test_app.ExtendedTests.test_wealth_disclaimer) ... ok
+test_cumulative_escalation_is_rechecked (test_app.RiskPolicyTests.test_cumulative_escalation_is_rechecked) ... ok
+test_red_transfer_needs_demo_code (test_app.RiskPolicyTests.test_red_transfer_needs_demo_code) ... ok
+test_three_failures_lock (test_app.RiskPolicyTests.test_three_failures_lock) ... ok
+test_concurrent_confirm_once (test_app.SecurityTests.test_concurrent_confirm_once) ... ok
+test_expired_cannot_execute (test_app.SecurityTests.test_expired_cannot_execute) ... ok
+test_injection_in_note_is_not_instruction (test_app.SecurityTests.test_injection_in_note_is_not_instruction) ... ok
+test_annual_bill (test_expansion.ScenarioCoverage.test_annual_bill) ... ok
+test_card_application_and_limit (test_expansion.ScenarioCoverage.test_card_application_and_limit) ... ok
+test_card_locked_prevents_transfer (test_expansion.ScenarioCoverage.test_card_locked_prevents_transfer) ... ok
+test_negative_wealth_rejected (test_expansion.ScenarioCoverage.test_negative_wealth_rejected) ... ok
+test_subscription_detection_is_read_only (test_expansion.ScenarioCoverage.test_subscription_detection_is_read_only) ... ok
+test_unlock_requires_code (test_expansion.ScenarioCoverage.test_unlock_requires_code) ... ok
+test_wealth_full_flow_and_replay (test_expansion.ScenarioCoverage.test_wealth_full_flow_and_replay) ... ok
+test_wealth_reject_insufficient_holding (test_expansion.ScenarioCoverage.test_wealth_reject_insufficient_holding) ... ok
+test_workflow_records_order_atomically (test_expansion.ScenarioCoverage.test_workflow_records_order_atomically) ... ok
+test_blocks_other_endpoint (test_plaid_sandbox.PlaidTests.test_blocks_other_endpoint) ... ok
+test_mocked_full_flow (test_plaid_sandbox.PlaidTests.test_mocked_full_flow) ... ok
+test_explicit_optin_only (test_router.RouterTests.test_explicit_optin_only) ... ok
+test_failure_and_cooldown (test_router.RouterTests.test_failure_and_cooldown) ... ok
+test_negative_amount_is_not_accepted (test_router.RouterTests.test_negative_amount_is_not_accepted) ... ok
+test_second_provider_after_failure (test_router.RouterTests.test_second_provider_after_failure) ... ok
+test_atomic_crash_rollback (test_workflow.WorkflowTests.test_atomic_crash_rollback) ... ok
+test_cancel_no_reserve (test_workflow.WorkflowTests.test_cancel_no_reserve) ... ok
+test_completion_idempotent_and_dependencies (test_workflow.WorkflowTests.test_completion_idempotent_and_dependencies) ... ok
+test_direct_action_updates_workflow (test_workflow.WorkflowTests.test_direct_action_updates_workflow) ... ok
+test_expired_action_does_not_advance (test_workflow.WorkflowTests.test_expired_action_does_not_advance) ... ok
+test_invalid_plan_and_mismatch (test_workflow.WorkflowTests.test_invalid_plan_and_mismatch) ... ok
+test_persisted_across_get (test_workflow.WorkflowTests.test_persisted_across_get) ... ok
+test_wrong_token_no_side_effect (test_workflow.WorkflowTests.test_wrong_token_no_side_effect) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 0.167s
+
+OK
